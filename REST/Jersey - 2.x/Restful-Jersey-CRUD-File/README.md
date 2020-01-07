@@ -13,7 +13,7 @@
   <tr>
     <th>Upload</th>
     <td>POST</td>
-    <td>/files/upload/{fileName}</td>
+    <td>/files/upload</td>
     <td>application/json</td>
     <td>uploadFile</td>
   </tr>
