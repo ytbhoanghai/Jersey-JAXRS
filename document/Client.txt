@@ -1,0 +1,34 @@
+Client giao tiếp với server
+
+*Tạo ClientConfig.
+	Cách 1: new ClientConfig();
+	Cách 2: ClientBuilder.newBuilder();
+
+*Đăng ký.
+	- Ghi LoggingFeature (nếu cần).
+	- Nếu làm việc với file > register(MultiPartFeature.class).
+	- Tạo Client .build().
+
+*Webtarger.
+	Sử dụng method client.target(URL_API).path("");
+
+*Invocation.Builder
+	target.request(MediaType);
+
+*Làm việc với File
+	Download:	+ Lấy status từ Response trả về == OK
+			+ Lấy luồng dữ liệu Response.readEntity(InputStream.class);
+
+	Upload		+ Tạo FileDataBodyPart("key", file);
+			+ Tạo FormDataMultiPart();
+			+ Tạo MultiPart = formDataMultiPart.bodyPart(fileDataBodyPart);
+			+ ... .post(Entity.entity(multiPart, multiPart.getMediaType));
+			+ Response.readEntity(Class || GenericType<> parse);
+
+
+*KHÔNG làm việc với File
+	Invocation.Builder > method {
+			+ post(Entity.json(object), Class || GenericType<> parse), 
+			+ get(Class || GenericType<> parse),
+			+ put(Entity.json(object)), 
+			+ delete(Class || GenericType<> parse)}

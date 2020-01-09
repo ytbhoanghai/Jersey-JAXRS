@@ -1,0 +1,12 @@
+<properties>
+	<version.jersey>2.29.1</version.jersey>
+</properties>
+
+<dependencies>
+	<dependency>
+        <groupId>org.glassfish.jersey.media</groupId>
+        <artifactId>jersey-media-json-jackson</artifactId>
+        <version>${version.jersey}</version>
+    </dependency>
+    
+</dependencies>

@@ -70,7 +70,7 @@ public class ClientRestfulJersey2_2 {
     private static User select(Integer id) {
         Client client = ClientRestfulJersey2_2.createJerseyRestClient();
         WebTarget target = client.target(URL_API).path("" + id);
-        return target.request(MediaType.APPLICATION_JSON).get(User.class);
+        return target.request().get(User.class);
     }
 
     private static List<User> selectAll() {
@@ -78,7 +78,7 @@ public class ClientRestfulJersey2_2 {
         WebTarget target = client.target(URL_API);
 
         GenericType<List<User>> genericType = new GenericType<List<User>>(){};
-        return target.request(MediaType.APPLICATION_JSON).get(genericType);
+        return target.request().get(genericType);
     }
 
     private static User update(Integer id, User user) {
@@ -92,7 +92,7 @@ public class ClientRestfulJersey2_2 {
         Client client = ClientRestfulJersey2_2.createJerseyRestClient();
         WebTarget target = client.target(URL_API).path("" + id);
 
-        return target.request(MediaType.APPLICATION_JSON).delete(User.class);
+        return target.request().delete(User.class);
     }
 
 }

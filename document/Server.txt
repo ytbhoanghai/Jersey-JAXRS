@@ -1,0 +1,6 @@
+Server gửi Response về Client
+
+Response.ok(entity, MediaType).build() <-> Response.status(Response.Status).entity(object).type(MediaType).build()
+
+*Nếu gửi về file > xác định chuỗi mine
+	> String mimeType = new MimeTypesFileTypeMap().getContentType(file) >-> type(mineType);

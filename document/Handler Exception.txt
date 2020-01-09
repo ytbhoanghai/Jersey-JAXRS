@@ -1,0 +1,14 @@
+Có 3 cách để Handler Exception:
+
+Thứ 1. Throw new WebApplicationException(message, Response).
+
+Thứ 2. Extends WebApplicationException trong hàm tạo truyền Response vào contructor parent > super(Response).
+
+Thứ 3. 1 exception bình thường 
+	> mapper bằng cách tạo ra 1 class mapper đánh dấu với annotation @Provider
+	> Implement interface ExceptionMapper<ExceptionClass>
+	> Ghi đè method toResponse.
+
+Demo > CRUD-WithFile-V2
+
+Thư viện: Không yêu cầu.

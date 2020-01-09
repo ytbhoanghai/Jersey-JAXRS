@@ -1,0 +1,22 @@
+Những Status Code thường dùng
+
+2xx (Sucess – Thành công):
+	200 – OK 		- HTTP method GET/ POST
+	201 – Created 		- HTTP method PUT
+	204 – No content 	- HTTP method DELETE
+
+4xx (Client Error – Lỗi Client):
+	400 – Bad Request 		- Request có cú pháp sai.
+	401 – Unauthorized 		- Cần chứng thực để truy cập.
+	403 – Forbidden 		- Truy cập bị từ chối (ví dụ ip bị chặn).
+	404 – Not Found			- Trang được yêu cầu không tồn tại tại thời điểm hiện tại.
+	405 – Method Not Allowed 	- Trang được yêu cầu không hỗ trợ method của request (ví dụ chỉ xử lý method POST, không xử lý method GET).
+	414 – URI Too Long		- URI được cung cấp là quá dài để Server xử lý.
+	415 – Unsupported Media Type	- Server sẽ không chấp nhận Request, bởi vì kiểu phương tiện không được hỗ trợ.
+
+5xx (Server error – Lỗi server):
+	500 – Internal Server Error	- Một thông báo chung chung, được đưa ra khi Server bị lỗi bất ngờ (chủ yếu do lỗi lập trình, kết nối database)
+	501 – Not Implemented		- Server không hỗ trợ xử lý request này.
+	502 – Bad Gateway		- Server đã hoạt động như một gateway hoặc proxy và nhận được một Response không hợp lệ từ máy chủ nguồn.
+	503 – Service Unavailable	- Server hiện tại không có sẵn (Quá tải hoặc được down để bảo trì). Nói chung đây chỉ là trạng thái tạm thời.
+	504 – Gateway Timeout		- Server đã hoạt động như một gateway hoặc proxy và không nhận được một Response từ máy chủ nguồn.
