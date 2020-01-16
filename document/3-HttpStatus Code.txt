@@ -1,14 +1,14 @@
 Những Status Code thường dùng
 
 2xx (Sucess – Thành công):
-	200 – OK 		- HTTP method GET/ POST
-	201 – Created 		- HTTP method PUT
-	204 – No content 	- HTTP method DELETE
+	200 – OK		- HTTP method GET/ POST
+	201 – Created		- HTTP method PUT
+	204 – No content	- HTTP method DELETE
 
 4xx (Client Error – Lỗi Client):
 	400 – Bad Request 		- Request có cú pháp sai.
 	401 – Unauthorized 		- Cần chứng thực để truy cập.
-	403 – Forbidden 		- Truy cập bị từ chối (ví dụ ip bị chặn).
+	403 – Forbidden			- Truy cập bị từ chối (ví dụ ip bị chặn).
 	404 – Not Found			- Trang được yêu cầu không tồn tại tại thời điểm hiện tại.
 	405 – Method Not Allowed 	- Trang được yêu cầu không hỗ trợ method của request (ví dụ chỉ xử lý method POST, không xử lý method GET).
 	414 – URI Too Long		- URI được cung cấp là quá dài để Server xử lý.

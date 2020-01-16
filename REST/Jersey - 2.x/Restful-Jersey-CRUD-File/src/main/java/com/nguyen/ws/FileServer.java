@@ -75,7 +75,7 @@ public class FileServer {
             @FormDataParam("uploadFile") FormDataContentDisposition contentDisposition) throws FileNotFoundException {
 
         String fileName = contentDisposition.getFileName();
-        File file = FileUtils.storeFile(inputStream, BASE_FOLDER + "/upload", fileName);;
+        File file = FileUtils.storeFile(inputStream, BASE_FOLDER + "/upload", fileName);
         if(file == null) {
             return Response.status(Response.Status.NOT_FOUND).entity("File Not Found").build();
         }

@@ -5,7 +5,6 @@ import lombok.Builder;
 import lombok.Data;
 
 import javax.xml.bind.annotation.XmlRootElement;
-import java.util.Date;
 
 @Data
 @AllArgsConstructor

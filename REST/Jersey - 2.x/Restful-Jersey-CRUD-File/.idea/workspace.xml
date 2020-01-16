@@ -7,41 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72135e56-0c83-4883-9450-29e89a6163e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Project-Basic/Restful-Jersey-Client/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project-Basic/Restful-Jersey-Server/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../JAX-RS.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project-Basic/Restful-Jersey-Client/src/main/java/ClientRestfulJersey2_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project-Basic/Restful-Jersey-Client/src/main/java/ClientRestfulJersey2_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project-Basic/Restful-Jersey-Client/target/classes/ClientRestfulJersey2_2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project-Basic/Restful-Jersey-Client/target/classes/ClientRestfulJersey2_2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project-Basic/Restful-Jersey-Client/target/classes/ClientRestfulJersey2_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project-Basic/Restful-Jersey-Client/target/classes/ClientRestfulJersey2_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project-Basic/Restful-Jersey-Server/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project-Basic/Restful-Jersey-Server/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project-Basic/Restful-Jersey-Server/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project-Basic/Restful-Jersey-Server/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project-Basic/Restful-Jersey-Server/.idea/libraries/Maven__org_glassfish_jersey_inject_jersey_hk2_2_29_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project-Basic/Restful-Jersey-Server/.idea/libraries/Maven__org_javassist_javassist_3_22_0_CR2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project-Basic/Restful-Jersey-Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project-Basic/Restful-Jersey-Server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project-Basic/Restful-Jersey-Server/RestfulJersey2.2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project-Basic/Restful-Jersey-Server/RestfulJersey2.2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project-Basic/Restful-Jersey-Server/out/artifacts/RestfulJersey2_2_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../Project-Basic/Restful-Jersey-Server/out/artifacts/RestfulJersey2_2_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project-Basic/Restful-Jersey-Server/out/artifacts/RestfulJersey2_2_war_exploded/WEB-INF/classes/com/nguyen/ws/JerseyServletContainerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project-Basic/Restful-Jersey-Server/out/artifacts/RestfulJersey2_2_war_exploded/WEB-INF/classes/com/nguyen/ws/JerseyServletContainerConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project-Basic/Restful-Jersey-Server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project-Basic/Restful-Jersey-Server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project-Basic/Restful-Jersey-Server/target/classes/META-INF/RestfulJersey2.2.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project-Basic/Restful-Jersey-Server/target/classes/com/nguyen/ws/JerseyServletContainerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project-Basic/Restful-Jersey-Server/target/classes/com/nguyen/ws/JerseyServletContainerConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_inject_jersey_hk2_2_29_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_22_0_CR2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Jersey - 1.x/Basic-1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Jersey - 1.x/Basic-1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Jersey - 1.x/Basic-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Jersey - 1.x/Basic-1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestfulJerseyDowUpServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RestfulJerseyDowUpServer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/RestfulJerseyDowUpServer_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/RestfulJerseyDowUpServer_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/RestfulJerseyDowUpServer_war_exploded/WEB-INF/classes/com/nguyen/ws/FileServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/RestfulJerseyDowUpServer_war_exploded/WEB-INF/classes/com/nguyen/ws/FileServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RestfulJerseyDowUpServer/example/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nguyen/ws/FileServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nguyen/ws/FileServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nguyen/ws/FileServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nguyen/ws/FileServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nguyen/ws/FileUploadResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nguyen/ws/FileUploadResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../document/HttpStatus Code.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../document/HttpStatus Code.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Jersey - 1.x/Basic-1" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -94,6 +65,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.24447717" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -206,6 +178,8 @@
       <workItem from="1578416547598" duration="2486000" />
       <workItem from="1578537641182" duration="53000" />
       <workItem from="1578542256230" duration="88000" />
+      <workItem from="1579060013769" duration="180000" />
+      <workItem from="1579061683381" duration="674000" />
     </task>
     <servers />
   </component>
@@ -229,10 +203,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="313" y="73" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.768@0.0.1366.768" timestamp="1577787945917" />
+    <state x="363" y="112" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579060148808">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="363" y="112" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.768@0.0.1366.768" timestamp="1579060148808" />
     <state x="413" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577793938958">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="413" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1577793938958" />
+    <state x="430" y="231" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1579060051612">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="430" y="231" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.768@0.0.1366.768" timestamp="1579060051612" />
+    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1579060195597">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1579060195597" />
     <state width="1115" height="199" key="GridCell.Tab.0.bottom" timestamp="1578417549454">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

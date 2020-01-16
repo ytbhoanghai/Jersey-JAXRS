@@ -1,0 +1,50 @@
+Xem hình Jersey2-Filter-and-interceptor-execution-order.png để nắm rõ thứ tự thực hiện
+=========================================================================================
+Thực hiện FILTER ở Client bằng cách thực thi 2 interface sau:
+
+	1- ClientRequestFilter		> bộ lọc request
+
+	2- ClientResponseFilter		> bộ lọc response
+
+=========================================================================================
+Thực hiện FILTER ở Server bằng cách thực thi 2 interface sau:
+
+	1- ContainerRequestFilter	> bộ lọc request
+	> Thêm annotation @PreMatching để xử lý trước khi request-matching được thực hiện, mặc định là post-matching
+	> request-matching là quá trình xác định method phù hợp để xử lý request (giống với request-handler trong Spring MVC)
+
+	2- ContainerResponseFilter	> bộ lọc response
+
+=<<<<<--------------------------------------------------------------------------->>>>>>>=
+									
+Thực hiện INTERCEPTOR bằng cách thực thi 2 interface sau:
+
+	1- WriterInterceptor		> xử lý data / entity / body ghi vào luồng
+
+	2- ReaderInterceptor		> xử lý data / entity / body đọc từ luồng
+
+
+=<<<<<--------------------------------------------------------------------------->>>>>>>=
+
+1- Sử dụng @NameBinding để quy định Tài nguyên nào (Interceptor hoặc Filter) nào sẽ dùng trên (Method hoặc Class) nào:
+
+	1-> đặt @NameBinding tại annotation định nghĩa.
+	2-> đặt annotation định nghĩa lên interceptor hoặc filter
+	3-> đặt annotation định nghĩa lên method hoặc class cần thực thi
+	4-> xem code demo FilterServer
+
+2- Tạo lớp thực thi interface DynamicFeature:
+
+	if (Clazz.class.equals(resourceInfo.getResourceClass())
+                && resourceInfo.getResourceMethod().getName().contains("DynamicData")) {
+            context.register(GZIPWriterInterceptor.class);
+        }	
+
+==========================================================================================
+- Thông thường nhận thấy, FILTER xử lý với header và INTERCEPTOR xử lý với body
+
+- Dùng FILTER để thêm token vào Client cũng như xác thực token từ SERVER
+
+- Dùng INTERCEPTOR 	gói luồng dữ liệu trong body thành 1 luồng nén (GZIP, ...) ở Client, 
+			giải nén luồng đó tại server và thiết lập lại luồng bằng method setInputStream
+
