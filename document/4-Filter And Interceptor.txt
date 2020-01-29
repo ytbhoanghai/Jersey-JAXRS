@@ -48,3 +48,5 @@ Thực hiện INTERCEPTOR bằng cách thực thi 2 interface sau:
 - Dùng INTERCEPTOR 	gói luồng dữ liệu trong body thành 1 luồng nén (GZIP, ...) ở Client, 
 			giải nén luồng đó tại server và thiết lập lại luồng bằng method setInputStream
 
+==========================================================================================
+http://www.mkjava.com/tutorial/filter-vs-interceptor/ > trong spring framework
