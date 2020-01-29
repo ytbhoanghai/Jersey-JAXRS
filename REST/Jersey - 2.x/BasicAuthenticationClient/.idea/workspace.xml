@@ -2,63 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3336fbd0-96f9-4ffa-a493-7335ef0bf7c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/artifacts/BasicAuthentication_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/artifacts/BasicAuthentication_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/libraries/Maven__jakarta_ws_rs_jakarta_ws_rs_api_2_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/libraries/Maven__org_glassfish_hk2_external_jakarta_inject_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_2_29_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_2_29_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_29_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_29_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_29_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/libraries/Maven__org_glassfish_jersey_ext_jersey_entity_filtering_2_29_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/libraries/Maven__org_glassfish_jersey_inject_jersey_hk2_2_29_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_jaxb_2_29_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_json_jackson_2_29_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/libraries/Maven__org_javassist_javassist_3_22_0_CR2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/BasicAuthentication.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/src/main/java/com/nguyen/JerseyServletContainerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/src/main/java/com/nguyen/context/BasicSecurity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/src/main/java/com/nguyen/exception/AuthorizationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/src/main/java/com/nguyen/filter/AuthFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/src/main/java/com/nguyen/handlerException/GenericExceptionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/src/main/java/com/nguyen/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/src/main/java/com/nguyen/model/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/src/main/java/com/nguyen/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/src/main/java/com/nguyen/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAuthentication/src/main/java/com/nguyen/seviceImpl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasicAuthenticationClient.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../document/4-Filter And Interceptor.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../document/4-Filter And Interceptor.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../mvn/Work With - JSON.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mvn/Work With - JSON.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BasicAuthentication/src/main/java/com/nguyen/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BasicAuthentication/src/main/java/com/nguyen/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580293379248</updated>
-      <workItem from="1580293382118" duration="7696000" />
+      <workItem from="1580293382118" duration="8299000" />
     </task>
     <servers />
   </component>
@@ -152,21 +97,21 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="43" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1580295286519" />
-    <state width="1367" height="199" key="GridCell.Tab.0.bottom" timestamp="1580297611620">
+    <state width="1367" height="199" key="GridCell.Tab.0.bottom" timestamp="1580312914421">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1367" height="199" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1580297611620" />
-    <state width="1367" height="199" key="GridCell.Tab.0.center" timestamp="1580297611620">
+    <state width="1367" height="199" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1580312914421" />
+    <state width="1367" height="199" key="GridCell.Tab.0.center" timestamp="1580312914421">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1367" height="199" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1580297611620" />
-    <state width="1367" height="199" key="GridCell.Tab.0.left" timestamp="1580297611620">
+    <state width="1367" height="199" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1580312914421" />
+    <state width="1367" height="199" key="GridCell.Tab.0.left" timestamp="1580312914421">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1367" height="199" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1580297611620" />
-    <state width="1367" height="199" key="GridCell.Tab.0.right" timestamp="1580297611620">
+    <state width="1367" height="199" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1580312914421" />
+    <state width="1367" height="199" key="GridCell.Tab.0.right" timestamp="1580312914421">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1367" height="199" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1580297611620" />
+    <state width="1367" height="199" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1580312914421" />
   </component>
 </project>

@@ -40,11 +40,13 @@ public class AuthFilter implements ContainerRequestFilter {
 
     @Override
     public void filter(ContainerRequestContext context) throws IOException {
+        // Lấy thông tin xác thực
         String authCredentials = context.getHeaderString(HttpHeaders.AUTHORIZATION);
         if (authCredentials == null || authCredentials.isEmpty()) {
             return;
         }
 
+        // Tiến hành decode và phân tích
         String encodeUsernameAndPassword = authCredentials.replace("Basic ", "");
         byte[] decodeBytes = DatatypeConverter.parseBase64Binary(encodeUsernameAndPassword);
         String userNameAndPassword = new String(decodeBytes, StandardCharsets.UTF_8.name());
@@ -53,11 +55,13 @@ public class AuthFilter implements ContainerRequestFilter {
         String username = tokenizer.nextToken();
         String password = tokenizer.nextToken();
 
+        // So khớp thông tin
         User user = getUser(username, password, USERS);
         if (user == null) {
             throw new AuthorizationException("not found username and password");
         }
 
+        // Tạo ra đối tượng thực thi giao diện SecurityContext và đưa và cho ContainerRequestContext quản lý phân quyền
         boolean secure = context.getSecurityContext().isSecure();
         context.setSecurityContext(new BasicSecurity(user, secure));
     }

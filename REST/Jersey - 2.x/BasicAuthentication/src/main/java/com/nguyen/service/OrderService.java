@@ -13,15 +13,13 @@ import javax.ws.rs.core.SecurityContext;
 
 public interface OrderService {
 
+    @POST @RolesAllowed(Role.ROLE_CUSTOMER)
+    @Consumes(MediaType.APPLICATION_JSON) @Produces(MediaType.APPLICATION_JSON)
+    Response insert(Order order, @Context SecurityContext context);
+
     @GET @Path("/{id}")
     @Produces(MediaType.APPLICATION_JSON)
     Response get(@PathParam("id") Integer id);
-
-    @POST
-    @RolesAllowed(Role.ROLE_CUSTOMER)
-    @Consumes(MediaType.APPLICATION_JSON)
-    @Produces(MediaType.APPLICATION_JSON)
-    Response insert(Order order, @Context SecurityContext context);
 
     @PUT
     @RolesAllowed({Role.ROLE_CUSTOMER, Role.ROLE_ADMIN})
