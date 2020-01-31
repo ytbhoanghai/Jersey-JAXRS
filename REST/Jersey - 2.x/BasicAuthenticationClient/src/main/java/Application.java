@@ -1,5 +1,4 @@
 import org.glassfish.jersey.client.authentication.HttpAuthenticationFeature;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.glassfish.jersey.jackson.JacksonFeature;
 
 import javax.ws.rs.client.Client;
@@ -16,11 +15,13 @@ public class Application {
     private static Client getClient() {
         Client client = ClientBuilder.newClient();
 
-        client.register(HttpAuthenticationFeature.basic("customer", "123"));
+        client.register(HttpAuthenticationFeature.
+                basic("customer", "123"));
         client.register(JacksonFeature.class);
 
         return client;
     }
+
     public static void main(String[] args) {
 
         Client client = getClient();

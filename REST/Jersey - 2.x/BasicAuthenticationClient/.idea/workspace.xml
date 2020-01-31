@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3336fbd0-96f9-4ffa-a493-7335ef0bf7c2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../BasicAuthentication/src/main/java/com/nguyen/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BasicAuthentication/src/main/java/com/nguyen/service/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../document/Authentication.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../document/Authentication.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../document/~$thentication.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580293379248</updated>
       <workItem from="1580293382118" duration="8299000" />
+      <workItem from="1580318396014" duration="1087000" />
     </task>
     <servers />
   </component>
