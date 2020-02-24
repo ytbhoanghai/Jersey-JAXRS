@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index Pages</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="navbar navbar-light bg-light" style="width: 100%;">
+                <div class="col-10">
+                    <form class="form-inline justify-content-center">
+                        <div class="input-group">
+                            <input name="username" class="form-control" type="text" placeholder="Username" aria-label="Username">
+                        </div>
+                        <div class="input-group">
+                            <input name="password" class="form-control" type="text" placeholder="Password" aria-label="Password">
+                        </div>
+                        <button class="btn btn-outline-success" type="button">Login</button>
+                        <span class="navbar-text text-info">--->[admin or user : 123]</span>
+                    </form>
+
+                </div>
+
+                <div class="col-2">
+                    <span class="navbar-text">Anonymous</span>
+                </div>
+
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6 ">
+                <table id="table" class="table table-striped">
+                    <tr>
+                        <th>id <a href="#" id="idUp"><i class="fa fa-angle-up"></i></a></th>
+                        <th>first name <a href="#" id="firstNameUp"><i class="fa fa-angle-up"></i></a></th>
+                        <th>last name <a href="#" id="lastNameUp"><i class="fa fa-angle-up"></i></a></th>
+                        <th>address <a href="#" id="addressUp"><i class="fa fa-angle-up"></i></a></th>
+                        <th>delete</th>
+                        <th>edit</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="edit" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel">Information Student</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-3 text-info">Id</div>
+                        <div class="col-9"><label style="width: 100%;"><input type="text" id="editId" style="width: 100%;" readonly></label></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3 text-info">First Name</div>
+                        <div class="col-9"><label style="width: 100%;"><input type="text" id="editFirstName" style="width: 100%;"></label></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3 text-info">Last Name</div>
+                        <div class="col-9"><label style="width: 100%;"><input type="text" id="editLastName" style="width: 100%;"></label></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3 text-info">Address</div>
+                        <div class="col-9"><label style="width: 100%;"><input type="text" id="editAddress" style="width: 100%;"></label></div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
